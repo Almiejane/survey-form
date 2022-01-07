@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet"  href="form.css">
+	<title> Distance Learning Survey Form</title>
+</head>
+<body>
+	<header>
+	<div class="container">
+		<header class="header">
+			<h1 id="title">
+				Distance Learning Survey Form
+			</h1>
+		</header>
+		<form action="" id="survey-form">
+
+			<!-- Text section -->
+
+			<div class="form-group">
+				<label for="name">Name</label>
+				<input type="text" name="name" id="name" class="formControl" placeholder="Enter your name" required>
+			</div>
+
+			<!-- end of text section -->
+
+			<!-- Type Email section -->
+
+			<div class="form-group">
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" class="formControl" placeholder="Enter your email" required>
+			</div>
+
+			<!-- end of Email section -->
+
+
+			<!-- Type Number section -->
+
+			<div class="form-group">
+				<label for="phone">Phone Number</label>
+				<input type="number" name="phone" id="phone" class="formControl" placeholder="Enter your phone number" required>
+			</div>
+
+			<!-- end of number section -->
+
+
+			<!-- select section -->
+
+			<div class="form-group">
+				<label for="Year Level">Current Year Level</label>
+				<select name="level" required id="dropdown" class="formControl">
+					<option value disabled selected>Select current year level</option> 
+					<option value="junior high school">Junior High School</option>
+					<option value="senior high school">Senior High School</option>
+					<option value="college">College</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+
+			<!-- end of select section -->
+
+
+			<!-- Radio Button section -->
+
+			<div class="form-group">
+				<p id="quest">1.How  do you feel overall about distance education ?</p>
+           		<label for="recommed-1">
+                	<input type="radio"
+                      	 id="recommed-1"
+                       		name="recommed">poor</input>
+
+           		</label>
+
+            	<label for="recommed-2">
+                	<input type="radio"
+                      	 id="recommed-2"
+                       		name="recommed">below Average</input>
+
+           		</label>
+
+            	<label for="recommed-3">
+                	<input type="radio"
+                      	 id="recommed-3"
+                      	 	name="recommed">Average</input>
+
+            	</label>
+
+            	<label for="recommed-4">
+                	<input type="radio"
+                       	id="recommed-4"
+                       		name="recommed">Good</input>
+
+            	</label>
+ 
+            	<label for="recommed-5">
+                	<input type="radio"
+                       	id="recommed-5"
+                       		name="recommed">Excellent</input>
+
+            	</label>
+
+       		</div>
+       		<div class="form-group">
+				<p id="quest">2.Do you have access to a device for learning online ?</p>
+           		<label for="recommed-1">
+                	<input type="radio"
+                      	 id="recommed-1"
+                       		name="recommed">Yes</input>
+
+           		</label>
+
+            	<label for="recommed-2">
+                	<input type="radio"
+                      	 id="recommed-2"
+                       		name="recommed">Yes, but it doesn't work well</input>
+
+           		</label>
+
+            	<label for="recommed-3">
+                	<input type="radio"
+                      	 id="recommed-3"
+                      	 	name="recommed">No, I share with others</input>
+
+            	</label>
+            </div>
+
+  			<div class="form-group">
+				<p id="quest">3.What device do you use for distance learning ??</p>
+           		<label for="recommed-1">
+                	<input type="radio"
+                      	 id="recommed-1"
+                       	 	name="recommed">laptop</input>
+
+           		</label>
+
+            	<label for="recommed-2">
+                	<input type="radio"
+                      	 id="recommed-2"
+                       		name="recommed">Smartphone</input>
+
+           		</label>
+
+            	<label for="recommed-3">
+                	<input type="radio"
+                      	 id="recommed-3"
+                      	 	name="recommed">Tablet</input>
+
+            	</label>
+
+				<label for="recommed-4">
+                	<input type="radio"
+                      	 id="recommed-4"
+                      		name="recommed">Desktop</input>
+            	</label>	
+            </div>	
+
+
+			<div class="form-group">
+				<p id="quest">4.How much time do you spend each day on an average on distance education ?</p>
+           		<label for="recommed-1">
+                	<input type="radio"
+                      	 id="recommed-1"
+                       		name="recommed">1-3 hours</input>
+
+           		</label>
+
+            	<label for="recommed-2">
+                	<input type="radio"
+                      	 id="recommed-2"
+                       		name="recommed">3-5 hours</input>
+
+           		</label>
+
+            	<label for="recommed-3">
+                	<input type="radio"
+                      	 id="recommed-3"
+                      	 	name="recommed">5-7 hours</input>
+
+            	</label>
+
+            	<label for="recommed-4">
+                	<input type="radio"
+                       	id="recommed-4"
+                       		name="recommed">7-10 hours</input>
+
+            	</label>
+ 
+            	<label for="recommed-5">
+                	<input type="radio"
+                       	id="recommed-5"
+                       		name="recommed">10+ hours</input>
+                </label>
+            </div>
+
+            <div class="form-group">
+				<p id="quest">5.How effective has remote learning been for you ?</p>
+           		<label for="recommed-1">
+                	<input type="radio"
+                      	 id="recommed-1"
+                       		name="recommed">Not at all effective</input>
+
+           		</label>
+
+            	<label for="recommed-2">
+                	<input type="radio"
+                      	 id="recommed-2"
+                       		name="recommed">Slightly effective</input>
+
+           		</label>
+
+            	<label for="recommed-3">
+                	<input type="radio"
+                      	 id="recommed-3"
+                      	 	name="recommed">Moderately effective</input>
+
+            	</label>
+
+            	<label for="recommed-4">
+                	<input type="radio"
+                       	id="recommed-4"
+                       		name="recommed">Very effective</input>
+
+            	</label>
+ 
+            	<label for="recommed-5">
+                	<input type="radio"
+                       	id="recommed-5"
+                       		name="recommed">Extremely effective</input>
+                </label>
+
+                <div class="form-group">
+				<p id="quest">6.How helpful your School or University has been offering you the resources to learn from home ?</p>
+           		<label for="recommed-1">
+                	<input type="radio"
+                      	 id="recommed-1"
+                       		name="recommed">Not at all helpful</input>
+
+           		</label>
+
+            	<label for="recommed-2">
+                	<input type="radio"
+                      	 id="recommed-2"
+                       		name="recommed">Slightly helpful</input>
+
+           		</label>
+
+            	<label for="recommed-3">
+                	<input type="radio"
+                      	 id="recommed-3"
+                      	 	name="recommed">Moderately helpful</input>
+
+            	</label>
+
+            	<label for="recommed-4">
+                	<input type="radio"
+                       	id="recommed-4"
+                       		name="recommed">Very helpful</input>
+
+            	</label>
+ 
+            	<label for="recommed-5">
+                	<input type="radio"
+                       	id="recommed-5"
+                       		name="recommed">Extremely helpful</input>
+                </label>
+            </div>
+
+            <div class="form-group">
+				<p id="quest">7.Do you have proper internet access at home ?</p>
+           		<label for="recommed-1">
+                	<input type="radio"
+                      	 id="recommed-1"
+                       		name="recommed">yes</input>
+
+           		</label>
+
+            	<label for="recommed-2">
+                	<input type="radio"
+                      	 id="recommed-2"
+                       		name="recommed">Limited (Access through mobile phone or handheld device)</input>
+
+           		</label>
+
+            	<label for="recommed-3">
+                	<input type="radio"
+                      	 id="recommed-3"
+                      	 	name="recommed">No</input>
+
+        		</label>
+                       
+                <div class="form-group">
+				<p id="quest">8.How stressful is distance learning for you during the COVID-19 pandemic ?</p>
+           		<label for="recommed-1">
+                	<input type="radio"
+                      	 id="recommed-1"
+                       		name="recommed">poor</input>
+
+           		</label>
+
+            	<label for="recommed-2">
+                	<input type="radio"
+                      	 id="recommed-2"
+                       		name="recommed">below Average</input>
+
+           		</label>
+
+            	<label for="recommed-3">
+                	<input type="radio"
+                      	 id="recommed-3"
+                      	 	name="recommed">Average</input>
+
+            	</label>
+
+            	<label for="recommed-4">
+                	<input type="radio"
+                       	id="recommed-4"
+                       		name="recommed">Good</input>
+
+            	</label>
+ 
+            	<label for="recommed-5">
+                	<input type="radio"
+                       	id="recommed-5"
+                       		name="recommed">Excellent</input>
+
+            	</label>
+            </div>
+
+            <div class="form-group">
+				<p id="quest">9.Are you satisfied with the home/remote learning education provided to you ?</p>
+           		<label for="recommed-1">
+                	<input type="radio"
+                      	 id="recommed-1"
+                       		name="recommed">No</input>
+
+           		</label>
+
+            	<label for="recommed-2">
+                	<input type="radio"
+                      	 id="recommed-2"
+                       		name="recommed">Somewhat</input>
+
+           		</label>
+
+            	<label for="recommed-3">
+                	<input type="radio"
+                      	 id="recommed-3"
+                      	 	name="recommed">Yes</input>
+                </label>
+            </div>
+
+            <div class="form-group">
+				<p id="quest">10.Are you learning as much as you were before the COVID-19 crisis ?</p>
+           		<label for="recommed-1">
+                	<input type="radio"
+                      	 id="recommed-1"
+                       		name="recommed">No</input>
+
+           		</label>
+
+            	<label for="recommed-2">
+                	<input type="radio"
+                      	 id="recommed-2"
+                       		name="recommed">Somewhat</input>
+
+           		</label>
+
+            	<label for="recommed-3">
+                	<input type="radio"
+                      	 id="recommed-3"
+                      	 	name="recommed">Yes</input>
+                </label>
+            </div>
+
+        	<!-- end of radio button -->
+
+
+        	<!-- Textarea section -->
+
+        	<div class="form-group">
+        		<p id="quest">Give us feedback</p>
+        		<textarea name="feedback" cols="30" rows="5" id="feedback" class="textarea" placeholder="Enter your feedback here..."></textarea>
+        	</div>
+        	<div class="form-group">
+        	<button type="submit" id="submit" class="btn">Submit</button>
+        	</div>
+    	</form>
+    </div>
+</body>
+</html>
